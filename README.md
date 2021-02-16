@@ -1,4 +1,5 @@
 # [TracIn](https://github.com/frederick0329/TracIn)
+
 [Implementation of Estimating Training Data Influence by Tracing Gradient Descent](https://arxiv.org/pdf/2002.08484.pdf)
 * [NeurIPS 3 mins overview talk](https://videos.neurips.cc/category/34/search/Estimating%20Training%20Data/video/slideslive-38937872?t=0)
 * [NeurIPS 10 mins spotlight talk](https://videos.neurips.cc/category/34/search/Estimating%20Training%20Data/video/slideslive-38936700?t=27)
@@ -6,15 +7,15 @@
 
 ## Goal: Identify the influence of training data points on F(data point at inference time).
 
-<img src="figures/goal.png" width="400"/>
+![goal](figures/goal.png)
 
 ## Idea: Trace Stochastic Gradient Descent (Using the loss function as F)
 
-<img src="figures/idea.png" width="800"/>
+![idea](figures/idea.png)
 
 ## Equation 
 
-<img src="figures/tracincp.png" width="800"/>
+![tracincp](figures/tracincp.png)
 
 ## Broader Impact
 This work proposes a practical technique to understand the influence of 
